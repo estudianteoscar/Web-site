@@ -1,0 +1,78 @@
+.nav-enlace{
+    display: inline-flexbox;
+    background: black;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: black;
+}
+nav{
+    background: white;
+    padding: 10px;
+    text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.logotipos{
+    /* width: 50px; */
+    height: 35px;
+    
+}
+.logotipos1{
+    width: 150x;
+    height: 150px;
+}
+.info{
+    color: red;
+    font-size: 20px;
+}
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
